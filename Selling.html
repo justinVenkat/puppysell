@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Sell</title>
+
+    <link rel="stylesheet" href="./asserts/css/bootsrap css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asserts/style.css">
+
+</head>
+<body class="bg-image" style="background-image: url(./img/sellpup1.jpg); height: 90vh;">
+<h4 style="text-align: center; color: blue; font-size: xx-large;">Selling Puppies</h4>
+    <div class="container mt-5 text-info ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body" style="background-image: url(./img/sellpup.jpg); background-position: center; background-size: cover;">
+
+                        <form action="/" method="post">
+                            <div class="form-group">
+                                <label for="name">Dog Breed Name</label>
+                                <input type="text" class="form-control" placeholder="Enter the Name" id="name">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="mobile">Mobile No.</label>
+                                        <input type="number" name="mobile" id="mobile" placeholder="+ 91 9787******" class="form-control">
+                                    </div>        
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="Price">Price .</label>
+                                        <input type="number" name="Price" id="Price" placeholder="Rs . *****" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="photo">Add Dog Photo</label>
+                                <input type="file" name="photo" id="photo" placeholder="Choose the Dog Photo" class="form-control">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Dog Gender</label>
+                                <div>
+                                    <label for="male" class="radio-inline"><input type="radio" name="gender" id="male">&nbsp;&nbsp;Male</label>&nbsp;&nbsp;&nbsp;
+                                    <label for="male" class="radio-inline"><input type="radio" name="gender" id="male">&nbsp;&nbsp;Female</label>
+                                </div>
+                            </div>
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn btn-primary"><a href="./view.html" style="color: white;">Submit</a></button>
+                                <button type="submit" class="btn btn-primary"><a href="./Selling.html" style="color: white;">Reset</a></button>
+                                <button type="submit" class="btn btn-primary"><a href="./Buy & sell .html" style="color: white;">⟵ Back</a></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./asserts/js/jquery.min.js"></script>
+    <script src="./asserts/js/bootstrap.min.js"></script>
+
+</body>
+</html>
